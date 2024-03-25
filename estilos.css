@@ -1,0 +1,144 @@
+h1{
+    font-size: 80px;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body {
+    font-family: "Pacifico", cursive;
+    margin: 0;
+    padding: 0; 
+    background-size: cover; 
+    background-position: center;
+    background-color: sandybrown;
+    background-image: url('bl.jpg');
+    
+    
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 110px;
+    background-image: url('x.jpg');
+    background-size: cover; /* La imagen se ajusta para cubrir completamente el encabezado */
+    background-position: center; /* La imagen se centra dentro del encabezado */
+}
+
+nav {
+    font-family: 'Arial', sans-serif; /* Fuente de letra para la barra de navegación */
+    background-color: #555;
+    text-align: center;
+    padding: 20px; /* Incrementa el relleno para que el fondo sea más grande */
+    border-radius: 15px; /* Establece los bordes redondos */
+}
+
+
+
+
+nav ul {
+    list-style-type: flex;
+    margin: 0;
+    padding: 20px; /* Incrementa el relleno para que el fondo sea más grande */
+    border-radius: 10px; /* Establece los bordes redondos */
+    background-color: #383838;
+}
+
+nav li {
+    display: inline-flex;
+    margin-right: 10px;
+    padding: 15px 30px;
+    background-color: #555;
+    border-radius: 20px;
+}
+
+nav li:hover {
+    background-color: #3b79ec; /* Cambia el color de fondo cuando el mouse está sobre el elemento */
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    color: #ddd;
+}
+main {
+    padding: 20px;
+}
+
+  
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.image-table {
+    border-collapse: collapse;
+    width: 80%; /* Ajustar el ancho de la tabla */
+}
+
+.image-table td {
+    border: 0px solid #ccc;
+    padding: 5px; /* Reducir el espaciado interno */
+}
+
+.image-table img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+  
+section {
+    margin-bottom: 30px;
+}
+h1{
+    color: #3b79ec;
+}
+h2 {
+    color: #333;
+    font-size: 36px;
+}
+p {
+    color: #666;
+    font-size: 25px;
+}
+.d {
+    text-align: right;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+
